@@ -20,20 +20,20 @@
     <link rel="text/javascript" href="./assets/javascript/script.js">
 </head>
 
-<body>
+<body id="dota-background">
     <header>
         <ul class="nav dflex justify-content-end">
             <li class="nav-item">
                 <a class="nav-link active" href="http://www.dota2.com/play/" target="_blank">Dota</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://en.wikipedia.org/wiki/Dota_2" target="_blank">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Heroes</a>
+                <a class="nav-link" href="./heroes.html">Heroes</a>
             </li>
             <li id="welcome" class="mx-auto text-primary">
                 Welcome To Our Demo Page
@@ -44,31 +44,77 @@
     <section class="container-fluid mt-3">
         <div name="fav-heroes" class="row ">
             <div name="chaos-knight" class="col-md-4 d-flex flex-column align-items-center">
-                <h2>
+                <h2 class="text-light">
                     Chaos Knight
                 </h2>
                 <div class="flip-container " ontouchstart="this.classList.toggle('hover');">
                     <div class="flipper d-flex flex-column align-items-center">
                         <div class="front">
-                            
+
                         </div>
                         <div class="back">
-                            holder
+                            <div id="overviewHeroAbilities">
+                                <div class="overviewAbilityRow">
+                                    <div class="abilityIconHolder"><img abilityname="chaos_knight_chaos_bolt" class="overviewAbilityImg abilityIconWithTooltip"
+                                            src="http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_chaos_bolt_hp1.png?v=4498967"
+                                            width="90" height="90"></div>
+                                    <div class="overviewAbilityRowDescription">
+                                        <h2>Chaos Bolt</h2>
+                                        <p>Throws a mysterious bolt of energy at the target unit. It stuns for a random duration
+                                            and deals random damage.</p>
+                                    </div>
+                                    <br clear="left">
+                                </div>
+                                <div class="overviewAbilityRow">
+                                    <div class="abilityIconHolder"><img abilityname="chaos_knight_reality_rift" class="overviewAbilityImg abilityIconWithTooltip"
+                                            src="http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_reality_rift_hp1.png?v=4498967"
+                                            width="90" height="90"></div>
+                                    <div class="overviewAbilityRowDescription">
+                                        <h2>Reality Rift</h2>
+                                        <p>Teleports you, any images you have and the target unit to a random point along the
+                                            line between the two of you. Reduces the target's armor for 8 seconds.</p>
+                                    </div>
+                                    <br clear="left">
+                                </div>
+                                <div class="overviewAbilityRow">
+                                    <div class="abilityIconHolder"><img abilityname="chaos_knight_chaos_strike" class="overviewAbilityImg abilityIconWithTooltip"
+                                            src="http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_chaos_strike_hp1.png?v=4498967"
+                                            width="90" height="90"></div>
+                                    <div class="overviewAbilityRowDescription">
+                                        <h2>Chaos Strike</h2>
+                                        <p>Each of Chaos Knight's attacks has a chance to deal bonus damage, also causing the
+                                            critical strike to lifesteal for 75% of the damage.</p>
+                                    </div>
+                                    <br clear="left">
+                                </div>
+                                <div class="overviewAbilityRow">
+                                    <div class="abilityIconHolder"><img abilityname="chaos_knight_phantasm" class="overviewAbilityImg abilityIconWithTooltip"
+                                            src="http://cdn.dota2.com/apps/dota2/images/abilities/chaos_knight_phantasm_hp1.png?v=4498967"
+                                            width="90" height="90"></div>
+                                    <div class="overviewAbilityRowDescription">
+                                        <h2>Phantasm</h2>
+                                        <p>Summons several phantasmal copies of the Chaos Knight from alternate dimensions.
+                                            There is a 50% chance an extra phantasm will be summoned. The phantasms deal
+                                            100% damage, but take 260% damage. Upgradeable by Aghanim's Scepter. DISPEL TYPE:
+                                            Basic Dispel</p>
+                                    </div>
+                                    <br clear="left">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div name="shadow-fiend" class="col-md-4 text-center">
+                    <h2>
+                        Shadow Fiend
+                    </h2>
+                </div>
+                <div name="crystal-maiden" class="col-md-4 text-center">
+                    <h2>
+                        Crystal Maiden
+                    </h2>
+                </div>
             </div>
-            <div name="shadow-fiend" class="col-md-4 text-center">
-                <h2>
-                    Shadow Fiend
-                </h2>
-            </div>
-            <div name="crystal-maiden" class="col-md-4 text-center">
-                <h2>
-                    Crystal Maiden
-                </h2>
-            </div>
-        </div>
 
 
     </section>

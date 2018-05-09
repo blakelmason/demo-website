@@ -3,7 +3,9 @@
     left: 50%;
     transform: translateX(-50%);
 }
-
+#dota-background{
+    background: url("../images/dota-background.jpg")
+}
 /* entire container, keeps perspective */
 .flip-container {
 	perspective: 1000px;
