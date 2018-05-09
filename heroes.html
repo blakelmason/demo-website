@@ -32,7 +32,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="https://en.wikipedia.org/wiki/Dota_2" target="_blank">About</a>
             </li>
-           <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link" href="#">Heroes</a>
             </li>
             <li id="welcome" class="mx-auto text-primary">
@@ -41,13 +41,36 @@
         </ul>
     </header>
 
-
-    <section class="video">
-        <div class="embed-responsive embed-responsive-16by9">
-            <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
-                <source src="./assets/images/background-video.mp4" type="video/webm">
-            </video>
+    <section class="container-fluid mt-3">
+        <div name="fav-heroes" class="row ">
+            <div name="chaos-knight" class="col-md-4 d-flex flex-column align-items-center">
+                <h2>
+                    Chaos Knight
+                </h2>
+                <div class="flip-container " ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper d-flex flex-column align-items-center">
+                        <div class="front">
+                            
+                        </div>
+                        <div class="back">
+                            holder
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div name="shadow-fiend" class="col-md-4 text-center">
+                <h2>
+                    Shadow Fiend
+                </h2>
+            </div>
+            <div name="crystal-maiden" class="col-md-4 text-center">
+                <h2>
+                    Crystal Maiden
+                </h2>
+            </div>
         </div>
+
+
     </section>
 </body>
 
